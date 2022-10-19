@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666190359 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+
