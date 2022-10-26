@@ -4,3 +4,4 @@
 #endif // MENUS_H_INCLUDED
 
 char menuOpciones();
+char menuInformes();

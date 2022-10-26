@@ -3,13 +3,9 @@
 #include <conio.h>
 #include <ctype.h>
 #include <string.h>
-#include "mascotas.h"
-#include "tipos.h"
-#include "colores.h"
-#include "trabajos.h"
 #include "servicios.h"
-#include "menus.h"
-#include "fecha.h"
+
+
 
 int mostrarServicios(eServicio lista[], int tam){
 

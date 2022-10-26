@@ -1,8 +1,95 @@
 # depslib dependency file v1.0
-1666190359 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\main.c
+1666797361 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<ctype.h>
 	<string.h>
+	"tipos.h"
+	"colores.h"
+	"servicios.h"
+	"mascotas.h"
+	"trabajos.h"
+	"menus.h"
+	"Informes.h"
+
+1666789442 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\mascotas.h
+
+1666789439 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\tipos.h
+
+1666789454 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\colores.h
+
+1666789535 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\fecha.h
+
+1666789875 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\trabajos.h
+	"fecha.h"
+
+1666789531 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\servicios.h
+
+1666797351 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\menus.h
+
+1666787994 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\colores.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"colores.h"
+
+1666192180 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\fecha.c
+
+1666797351 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\menus.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"menus.h"
+
+1666788095 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\servicios.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"servicios.h"
+
+1666787986 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\tipos.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"tipos.h"
+
+1666789838 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\trabajos.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"trabajos.h"
+	"fecha.h"
+
+1666790856 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\mascotas.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"tipos.h"
+	"colores.h"
+	"mascotas.h"
+
+1666797386 c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\informes.h
+
+1666797415 source:c:\users\eze\documents\codeblocks - proyectos\primer parcial labo i\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"tipos.h"
+	"colores.h"
+	"mascotas.h"
 

@@ -3,13 +3,13 @@
 #include <conio.h>
 #include <ctype.h>
 #include <string.h>
-#include "mascotas.h"
 #include "tipos.h"
 #include "colores.h"
-#include "trabajos.h"
 #include "servicios.h"
+#include "mascotas.h"
+#include "trabajos.h"
 #include "menus.h"
-#include "fecha.h"
+#include "Informes.h"
 
 #define TAM_T 5
 #define TAM_C 5
@@ -42,6 +42,7 @@ int main()
 	};
 
     char seguir = 's';
+    char seguirInformes = 's';
     int siguienteIdMascota = 1;
     int siguienteIdTrabajo = 50000;
     int flagPrimerAlta = 0;
@@ -153,7 +154,70 @@ int main()
 						printf("\n --> TODAVIA NO SE HA DADO NINGUN TRABAJO DE ALTA!  \n");
 				}
 				break;
-			case 'J':
+            case 'J':
+
+                do{
+                    switch(menuInformes())
+                    {
+                    case 'a':
+                        if(flagPrimerAlta)
+                        {
+                            if(mostrarMascotasUnColor(listaMascotas,listaColores,TAM_M,TAM_C)){
+                                printf("\n --> EL INFORME FUE MOSTRADO CON EXITO! \n\n");
+                            }else
+                            {
+                                printf("\n --> HUBO UN PROBLEMA AL MOSTRAR EL INFORME \n\n");
+                            }
+                        }else
+                        {
+                            printf("\n --> TODAVIA NO SE HA DADO NINGUNA MASCOTA DE ALTA!  \n\n");
+                        }
+                        break;
+                    case 'b':
+                        if(flagPrimerAlta)
+                        {
+                            if(promedioMascotasVacunadas(listaMascotas,TAM_M)){
+                                printf("\n --> EL INFORME FUE MOSTRADO CON EXITO! \n\n");
+                            }else
+                            {
+                                printf("\n --> HUBO UN PROBLEMA AL MOSTRAR EL INFORME \n\n");
+                            }
+                        }else
+                        {
+                            printf("\n --> TODAVIA NO SE HA DADO NINGUNA MASCOTA DE ALTA!  \n\n");
+                        }
+                        break;
+                    case 'c':
+
+                        break;
+                    case 'd':
+                        break;
+                    case 'e':
+                        break;
+                    case 'f':
+                        break;
+                    case 'g':
+                        break;
+                    case 'h':
+                        break;
+                    case 'i':
+                        break;
+                    case 'j':
+                        break;
+                    case 'k':
+                        seguirInformes = 'n';
+                        break;
+                    default:
+                        printf("\n\n==> LA OPCION INGRESADA ES INVALIDA\n\n"); //validacion de cualquier error de ingreso
+                    }
+
+                printf("\n\n");
+                system("pause");
+
+                }while(seguirInformes == 's');
+
+                break;
+			case 'K':
 				seguir = 'n';
 				break;
 			default:

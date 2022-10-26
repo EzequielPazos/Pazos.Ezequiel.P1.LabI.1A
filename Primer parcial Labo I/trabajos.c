@@ -3,12 +3,7 @@
 #include <conio.h>
 #include <ctype.h>
 #include <string.h>
-#include "mascotas.h"
-#include "tipos.h"
-#include "colores.h"
 #include "trabajos.h"
-#include "servicios.h"
-#include "menus.h"
 #include "fecha.h"
 
 int inicializarTrabajos(eTrabajo lista[], int tam)

@@ -31,58 +31,41 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Informes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Informes.h" />
 		<Unit filename="colores.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="colores.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="colores.h" />
 		<Unit filename="fecha.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="fecha.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="fecha.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="mascotas.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="mascotas.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="mascotas.h" />
 		<Unit filename="menus.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="menus.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="menus.h" />
 		<Unit filename="servicios.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="servicios.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="servicios.h" />
 		<Unit filename="tipos.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="tipos.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="tipos.h" />
 		<Unit filename="trabajos.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="trabajos.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="trabajos.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

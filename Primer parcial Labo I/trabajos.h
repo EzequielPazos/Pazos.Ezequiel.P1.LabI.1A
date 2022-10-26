@@ -1,6 +1,8 @@
 #ifndef TRABAJOS_H_INCLUDED
 #define TRABAJOS_H_INCLUDED
 
+#include "fecha.h"
+
 typedef struct{
     int id; //(autoincremental)
     int idMascota; //(debe existir) Validar
